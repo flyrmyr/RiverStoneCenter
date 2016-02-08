@@ -110,26 +110,26 @@ nav {
 		}
 
 	nav ul ul {
-		background-color:rgba(255,255,255,1);
-		background: linear-gradient(left, rgba(255,255,255,1) 10%,rgba(255,255,255,0) 90%);
-		background: -moz-linear-gradient(left, rgba(255,255,255,1) 10%,rgba(255,255,255,0) 90%);
-		background: -webkit-linear-gradient(left, rgba(255,255,255,1) 10%,rgba(255,255,255,0) 90%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(left, rgba(255,255,255,1) 10%,rgba(255,255,255,0) 90%);
+		background-color:rgba(255,255,255,.9);
+		background: linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%);
+		background: -moz-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%);
+		background: -webkit-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%);
 		display: none;
 		border-radius:0;
-		border-bottom-right-radius: 30px;
-		border-top-right-radius: 30px;
+		/*border-bottom-right-radius: 30px;
+		border-top-right-radius: 30px;*/
 		padding: 0;
 		border: 0px;
 		position: absolute;
 		left: 100%;
 	}
 		nav ul ul li:hover{
-			background-color:rgba(255,255,255,1);
-			background: -webkit-linear-gradient(left, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 90%);
-			background: -o-linear-gradient(left, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 90%);
-			background: linear-gradient(left, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 90%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(left, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 90%);
+			background-color:rgba(255,255,255,.9);
+			background: linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%);
+			background: -moz-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%);
+			background: -webkit-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%);
 		}
 
 .header{
