@@ -20,7 +20,7 @@
 			    <td><a href= "index.html"><img src="images/logo.jpg"></a></td>
 				<td></td>
 			    <td>
-			    	<h3><a href="https://script.google.com/macros/s/AKfycbyH0iGlBid2OejfeCzJZIaaQ2ffiTem8QpkTWjK18k0dzVXlFU/exec" target="_blank">21 Second Ave.<br />Denville, NJ 07834</a><br />
+			    	<h3><a href="https://script.google.com/macros/s/AKfycbwR5ftTnJapYfyE8RiuFs5qqTy4pE6fQB0QUARh5THD9XzDMgI7/exec" target="_blank">21 Second Ave.<br />Denville, NJ 07834</a><br />
 			    	<a href="tel:973-627-2191">(973)627-2191</a></h3>
 			    </td>
 			</table>
@@ -63,7 +63,10 @@
 			<br>
 			<h1>Request an Appointment</h1>
 
-			<form id='appointmentForm' method='POST' action='https://script.google.com/macros/s/AKfycbyH0iGlBid2OejfeCzJZIaaQ2ffiTem8QpkTWjK18k0dzVXlFU/exec'>
+			<form id='appointmentForm' method='POST' action='http://formspree.io/meyer.ej@gmail.com'>
+
+				<input type="hidden" name="_next" value="index.html" />
+				<input type="hidden" name="_subject" value="Appointment Request" />
 
 				<fieldset class="inputGroup">
 					<label for="name" class='inputLabel' >Name: </label><br/>
@@ -72,7 +75,7 @@
 
 				<fieldset class="inputGroup">
 					<label for="email" class='inputLabel'><b>Your</b> Email Address:</label><br/>
-					<input id="emailInput" name="email" type="email" class='userInput' value=""
+					<input id="emailInput" name="_replyto" type="email" class='userInput' value=""
 					required placeholder="example@email.com"/>
 					<span id="email-invalid" style="visibility:hidden">
 					Must be a valid email address</span>
@@ -119,6 +122,8 @@
 			</table>
 			</a>
 		</div>
-
+	
+		<script data-cfasync="false" type="text/javascript"
+	src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 	</body>
 </html>
