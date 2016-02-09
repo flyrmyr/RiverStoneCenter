@@ -62,51 +62,11 @@
 			<img src ="images/house.png">
 			<br>
 			<h1>Request an Appointment</h1>
-
-			<form id='appointmentForm' method='POST' action='http://formspree.io/meyer.ej@gmail.com'>
-
-				<input type="hidden" name="_next" value="/appointment-thank-you.html" />
-				<input type="hidden" name="_subject" value="Appointment Request" />
-
-				<fieldset class="inputGroup">
-					<label for="Name" class='inputLabel' >Name: </label><br/>
-					<input type="text" id="name" name="name" placeholder="John Smith" class='userInput' />
-				</fieldset>
-
-				<fieldset class="inputGroup">
-					<label for="email" class='inputLabel'><b>Your</b> Email Address:</label><br/>
-					<input id="emailInput" name="_replyto" type="email" class='userInput' value=""
-					required placeholder="example@email.com"/>
-					<span id="email-invalid" style="visibility:hidden">
-					Must be a valid email address</span>
-				</fieldset>
-
-				<fieldset class="inputGroup">
-					<label for="Date & Time" class='inputLabel' >Requested Date and Time: </label><br/>
-					<input type="text" id="dateTime" name="dateTime" placeholder="4/15/2016  2:00pm" class='userInput' />
-				</fieldset>
-
-				<fieldset class="inputGroup">
-					<label for="Appointment Type" class='inputLabel'>Appointment Type: </label><br/>
-					<select id='appointmentType' name="appointmentType" class='userInput'>
-						<option value="Massage">Massage Therapy</option>
-						<option value="Wellness Coaching">Wellness Coaching</option>
-						<option value="Leadership Coaching">Leadership Coaching</option>
-						<option value="Core Energetics Session">Core Energetics Session</option>
-					</select>
-				</fieldset>
-
-				<fieldset class="inputGroup">
-					<label for="Length" class='inputLabel'>Length: </label><br/>
-					<select id='length' name="length" class='userInput'>
-						<option value="1 hour">1 Hour</option>
-						<option value="1.5 hour">1.5 Hours</option>
-					</select>
-				</fieldset>
-
-				<button type="submit" value="Submit" id='submitInput' >Submit</button>
-
-			</form>
+			
+			<p>
+			<b><big>Thank You!</big><b><br />
+			I have received your request. I will be in touch shortly.
+			</p>
 
 			<br><br>
 		</div>
