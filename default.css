@@ -126,10 +126,10 @@ nav {
 	}
 		nav ul ul li:hover{
 			background-color:rgba(255,255,255,.9);
-			background: linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%);
-			background: -moz-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%);
-			background: -webkit-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,0) 100%);
+			background: linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,.5) 100%);
+			background: -moz-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,.5) 100%);
+			background: -webkit-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,.5) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(left, rgba(255,255,255,.9) 50%,rgba(255,255,255,.5) 100%);
 		}
 
 .header{
@@ -244,12 +244,24 @@ nav {
 	overflow: auto;
 }
 
-#address{
-	display:inline-block;
-	float:left;
+#contact{
+	text-align:center;
 }
+#contact-text{
+	display:inline-block;
+	text-align:right;
+	height:400px;
+	width:48%;
+	float:left;
+	vertical-align: top;
+}
+	#contact-text .p{
+		vertical-align: middle;
+	}
 #map{
 	display:inline-block;
+	height:400px;
+	width:48%;
 	float:right;
 }
 
