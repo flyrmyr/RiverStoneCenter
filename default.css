@@ -249,15 +249,14 @@ nav {
 }
 #contact-text{
 	display:inline-block;
+	box-sizing: border-box;
 	text-align:right;
 	height:400px;
 	width:48%;
 	float:left;
 	vertical-align: top;
+	padding-right:8%;
 }
-	#contact-text .p{
-		vertical-align: middle;
-	}
 #map{
 	display:inline-block;
 	height:400px;
@@ -266,10 +265,15 @@ nav {
 }
 
 @media (max-width: 1135px) {
-    #address, #map {
+    #contact-text, #map {
     	display:block;
+		width:100%;
 		float:none;
-		margin:auto;
+		text-align:center;
+	}
+	#contact-text{
+		height:auto;
+		padding:0;
 	}
 }
 
