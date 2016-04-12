@@ -97,7 +97,7 @@ nav {
 			color: #000000;
 		}
 		nav ul li a {
-			display: block; 
+			display: inline-block; 
 			padding: 10px 30px;
 			font-family: 'times', Helvetica;
 			font-size: 20px;
