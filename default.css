@@ -187,6 +187,13 @@ nav {
 		}
 	}
 
+.anchor{
+   display:block;
+   height:225px; /* this is the height of your header */
+   margin-top:-225px; /* this is again negative value of the height of your header */
+   visibility:hidden;
+}
+
 .content{
 	z-index: 1;
 	top:200px;
