@@ -329,19 +329,24 @@ nav {
 	position: fixed;
 	bottom:0;
 	width: 100%;
-	height: 40px;
 	opacity: .9;
+	box-sizing:border-box;
 }
-	.footer table {
-		z-index: 3;
-		width: 90%;
-		top: 100%;
-		min-width: 880px;
-		text-align: center;
-		margin: auto auto;
-		display:table;
-		vertical-align: center;
+	.footerDiv {
+		position:relative;
+		text-align:center;
+		display:inline-block;
+		width:33%;
+		height:100%;
 	}
-	.footer table td {
-		padding-top:5px;
+	.footerDiv h6{
+		margin:7px;
 	}
+
+@media (max-width: 800px) {
+  .footerDiv {
+    width: 100%;
+    display:block;
+    float:none;
+  }
+}
